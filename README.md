@@ -47,7 +47,9 @@ cd quant_research
 
 # Install dependencies
 pip install -r requirements.txt
-
+or
+chmod +x setup.sh
+./setup.sh
 # Setup pre-commit hooks
 pre-commit install
 ```
