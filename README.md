@@ -19,6 +19,11 @@ Advanced research framework for studying market microstructure, detecting manipu
 │   └── market_simulation.py          # Agent-based market simulation
 └── /data/
     ├── /lobster/                     # High-frequency limit order book data
+    |--- /lobster/                    # It is added to emphasise that there are subfolders.
+    ├── raw/                          # Original downloaded files
+    ├── processed/                    # Cleaned Parquet files
+    ├── interim/                      # Intermediate processing files
+    └── metadata/                     # Dataset documentation
     └── /audit_logs/                  # Cryptographically-secured trade records
 ```
 ##  🌟 Key Features
